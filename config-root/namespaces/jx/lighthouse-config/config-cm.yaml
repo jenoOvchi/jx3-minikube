@@ -9,6 +9,8 @@ data:
       enabled:
         jenoOvchi/jx-test: true
         jenoOvchi/jx-test-2: true
+        jenoOvchi/jx-test-3: true
+        jenoOvchi/jx-test-4: true
         jenoOvchi/jx3-minikube: true
         jenoOvchi/test: true
     plank: {}
@@ -24,6 +26,8 @@ data:
       merge_method:
         jenoOvchi/jx-test: merge
         jenoOvchi/jx-test-2: merge
+        jenoOvchi/jx-test-3: merge
+        jenoOvchi/jx-test-4: merge
         jenoOvchi/jx3-minikube: merge
         jenoOvchi/test: merge
       queries:
@@ -38,6 +42,8 @@ data:
         repos:
         - jenoOvchi/jx3-minikube
         - jenoOvchi/jx-test-2
+        - jenoOvchi/jx-test-3
+        - jenoOvchi/jx-test-4
         - jenoOvchi/jx-test
         - jenoOvchi/test
       - labels:
@@ -51,6 +57,8 @@ data:
         repos:
         - jenoOvchi/jx3-minikube
         - jenoOvchi/jx-test-2
+        - jenoOvchi/jx-test-3
+        - jenoOvchi/jx-test-4
         - jenoOvchi/jx-test
         - jenoOvchi/test
       target_url: http://lighthouse-jx.192.168.205.4.nip.io/merge/status

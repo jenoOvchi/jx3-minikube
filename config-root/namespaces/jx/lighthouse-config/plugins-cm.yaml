@@ -12,6 +12,14 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - jenoOvchi/jx-test-3
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - jenoOvchi/jx-test-4
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - jenoOvchi/jx-test
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -34,6 +42,16 @@ data:
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
       jenoOvchi/jx-test-2:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
+      jenoOvchi/jx-test-3:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
+      jenoOvchi/jx-test-4:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
@@ -70,6 +88,38 @@ data:
       - dog
       - pony
       jenoOvchi/jx-test-2:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      jenoOvchi/jx-test-3:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      jenoOvchi/jx-test-4:
       - approve
       - assign
       - blunderbuss
@@ -132,6 +182,12 @@ data:
       trusted_org: todo
     - repos:
       - jenoOvchi/jx-test-2
+      trusted_org: todo
+    - repos:
+      - jenoOvchi/jx-test-3
+      trusted_org: todo
+    - repos:
+      - jenoOvchi/jx-test-4
       trusted_org: todo
     - repos:
       - jenoOvchi/jx-test
