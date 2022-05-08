@@ -11,6 +11,7 @@ spec:
     - name: jx-test
     - name: jx-test-2
     - name: jx-test-3
+    - name: jx-test-4
     - name: test
     scheduler: in-repo
   slack:
